@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
     min-height: 100vh;
     background-image: linear-gradient(to bottom, transparent, #0B1D26), url(/images/BG\ Hero.svg), url(/images/VG.svg), url(/images/MG.svg);
     background-position: bottom, top, center, center;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -17,11 +18,14 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav a {
     text-decoration: none;
     color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .logo p {
@@ -31,16 +35,22 @@ nav a {
 
 .nav-links {
     display: flex;
+    justify-content: space-between;
+    width: 282px;
 }
 
 .account {
     display: flex;
+    align-items: center;
 }
 
 .account img {
     width: 24px;
+    margin-right: 10px;
 }
 
 .account p {
     color: #FFF;
+    font-weight: 700;
+    font-size: 17px;
 }
