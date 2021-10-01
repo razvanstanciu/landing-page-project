@@ -47,7 +47,7 @@ nav a {
 .account img {
     width: 24px;
     margin-right: 10px;
-    filter: brightness(0) invert(1);
+    filter: invert(1);
 }
 
 .account p {
