@@ -8,9 +8,9 @@
 body {
     padding: 64px 80px;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom, transparent, #0B1D26), url(/images/BG\ Hero.svg), url(/images/VG.svg), url(/images/MG.svg);
-    background-position: bottom, top, center, center;
-    background-size: cover;
+    background-image: url(/images/HG.svg), url(/images/BG\ Hero.svg), url(/images/VG.svg), url(/images/MG.svg);
+    background-position: top, top, bottom, bottom;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -139,23 +139,28 @@ header {
 }
 
 .scrollbar {
-    height: 160px;
+    height: 240px;
     width: 3px;
+    position: relative;
 }
 
-.page {
-    width: 25%;
-}
-
-.page-start {
-    background-color: #FFF;
-}
-
-.page-one,
-.page-two,
-.page-three  {
-    background-color: #FFF;
+.scrollbar-bg {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
     opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.scrollbar-progress {
+    width: 100%;
+    height: 25%;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 
