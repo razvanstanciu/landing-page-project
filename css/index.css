@@ -19,6 +19,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 200px;
 }
 
 nav a {
@@ -55,3 +56,106 @@ nav a {
     font-weight: 700;
     font-size: 17px;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-hdr {
+    display: flex;
+    align-items:flex-end;
+    width: 350px;
+    transform: rotate(90deg);
+} 
+
+.left-hdr p {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFF;
+    margin-right: 24px;
+}
+
+.left-hdr img {
+    width: 24px;
+}
+
+.instagram-logo {
+    margin-right: 24px;
+}
+
+.subtitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.middle-hdr h1 {
+    font-weight: 600;
+    font-size: 60px;
+    color: #FFF;
+    margin-bottom: 32px;
+}
+
+.subtitle p {
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 6px;
+    color: #FBD784;
+    text-transform: uppercase;
+}
+
+.string {
+    width: 72px;
+    height: 2px;
+    background-color: #FBD784;
+    margin-right: 32px;
+}
+
+.scroll-down {
+    display: flex;
+}
+
+.scroll-down p {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFF;
+    margin-right: 18px;
+}
+
+.right-hdr {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 88%;
+}
+
+.page-number p {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: end;
+    color: #FFF;
+    margin-right: 32px;
+}
+
+.scrollbar {
+    height: 160px;
+    width: 3px;
+}
+
+.page {
+    width: 25%;
+}
+
+.page-start {
+    background-color: #FFF;
+}
+
+.page-one,
+.page-two,
+.page-three  {
+    background-color: #FFF;
+    opacity: 0.5;
+}
+
+
