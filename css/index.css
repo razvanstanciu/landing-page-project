@@ -8,10 +8,7 @@
 body {
     padding: 64px 80px;
     min-height: 100vh;
-    background-image: url(/images/HG.svg), url(/images/BG\ Hero.svg), url(/images/VG.svg), url(/images/MG.svg);
-    background-position: top, top, bottom, bottom;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-color: aqua;
 }
 
 nav {
@@ -59,13 +56,15 @@ nav a {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .left-hdr {
+    position: absolute;
+    bottom: 120px;
+    left: 0;
     display: flex;
-    align-items:flex-end;
-    width: 350px;
+    align-items: center;
     transform: rotate(90deg);
 } 
 
