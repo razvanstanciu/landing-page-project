@@ -137,6 +137,10 @@ header {
     margin-right: 32px;
 }
 
+.margin {
+    margin-bottom: 40px;
+} 
+
 .scrollbar {
     height: 240px;
     width: 3px;
