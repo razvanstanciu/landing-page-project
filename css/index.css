@@ -8,7 +8,7 @@
 body {
     padding: 64px 80px;
     min-height: 100vh;
-    background-color: aqua;
+    background-color: rosybrown;
 }
 
 nav {
@@ -57,6 +57,7 @@ nav a {
 header {
     display: flex;
     justify-content: center;
+    margin-bottom: 420px;
 }
 
 .left-hdr {
@@ -164,6 +165,17 @@ header {
     position: absolute;
     top: 0px;
     left: 0px;
+}
+
+.article {
+    display: flex;
+    justify-content: space-between;
+    gap: 114px;
+}
+
+.picture {
+    height: 720px;
+    width: 566px;
 }
 
 footer {
