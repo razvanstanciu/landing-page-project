@@ -173,6 +173,17 @@ header {
     gap: 114px;
 }
 
+.noumber {
+    font-weight: 700;
+    font-size: 240px;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.content {
+    position: absolute;
+}
+
 .picture {
     height: 720px;
     width: 566px;
@@ -198,13 +209,6 @@ footer {
     line-height: 32px;
 }
 
-.noumber {
-    position: relative;
-    font-weight: 700;
-    font-size: 240px;
-    color: #fff;
-    opacity: 0.5;
-}
 
 .copyright {
     font-weight: 500;
