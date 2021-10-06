@@ -181,7 +181,9 @@ header {
 }
 
 .content {
-    position: absolute;
+    position: relative;
+    right: 210px;
+    top: 120px;
 }
 
 .picture {
