@@ -186,6 +186,29 @@ header {
     top: 120px;
 }
 
+.information {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 27px;
+}
+
+.read-more {
+    display: flex;
+}
+
+.read-more p {
+    color: #FBD784;
+    font-size: 18px;
+    margin-right: 16px;
+    font-weight: 700;
+}
+
+.read-more img {
+    color: #FBD784;
+}
+
 .picture {
     height: 720px;
     width: 566px;
